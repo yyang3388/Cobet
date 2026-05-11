@@ -25,21 +25,21 @@ A family of nonparametric independence tests built on dyadic binary expansion fe
 
 **Clone and install (editable mode — recommended for research)**
 ```bash
-git clone https://github.com/YOUR_USERNAME/cobet.git
+git clone https://github.com/yyang3388/cobet.git
 cd cobet
 pip install -e .
 ```
 
 **Install directly from GitHub**
 ```bash
-pip install git+https://github.com/YOUR_USERNAME/cobet.git
+pip install git+https://github.com/yyang3388/cobet.git
 ```
 
 **With baseline comparators (HSIC, dCov)**
 ```bash
 pip install -e ".[baselines]"
 # or
-pip install "cobet[baselines] @ git+https://github.com/YOUR_USERNAME/cobet.git"
+pip install "cobet[baselines] @ git+https://github.com/yyang3388/cobet.git"
 ```
 
 ---
@@ -157,18 +157,7 @@ All use a d-dimensional Clayton copula for the latent dependence structure.
 
 ---
 
-## Citation
 
-If you use this package, please cite:
-
-```bibtex
-@software{cobet2025,
-  author  = {Your Name},
-  title   = {CoBET: Adaptive Multiscale Binary Expansion Tests for Independence},
-  year    = {2025},
-  url     = {https://github.com/YOUR_USERNAME/cobet},
-}
-```
 
 ---
 
