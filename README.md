@@ -157,7 +157,9 @@ All use a d-dimensional Clayton copula for the latent dependence structure.
 
 ---
 
+## Website demo
 
+- https://yyang3388.github.io/Cobet/
 
 ---
 
